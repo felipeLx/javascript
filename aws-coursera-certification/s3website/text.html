@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Who have thirst?</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/text.css" />
+	</head>
+	<body>
+		<section data-role="background"></section>
+		<section data-role="foreground">
+			<h1>You want a drink?</h1>
+			<form>
+				<label class="label-up" for="drinks">I want drink</label>
+				<select id="drinks"></select>
+				<output id="outputDrink" data-showing="not_showing">
+        </output>
+        <label class="label-down" for="quantity">And the quantity</label>
+				<select id="quantity"></select>
+				<output id="outputQty" data-showing="not_showing">
+        </output>
+        <label class='label-down' for="phone">My number is</label>
+        <input id='phone' type='text' />
+        <button disabled>
+					Getting drinks data. One sec.
+				</button>
+				<output data-showing="not_showing">
+				</output>
+			</form>
+		</section>
+		<script src="scripts/config.js"></script>
+		<script src="scripts/jquery_3.3.1.min.js"></script>
+		<script src="scripts/helper.js"></script>
+		<script src="scripts/text.js"></script>
+	</body>
+</html>
