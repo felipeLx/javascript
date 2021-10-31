@@ -15,7 +15,7 @@
 
 [submodule "quiz-game"]
 	path = ./js-games/quiz-game
-	url = https://felipelx.github.io/javascript.git
+	url = https://felipelx.github.io/javascript/js-games/quiz-game.git
 [submodule "simple-game"]
 	path = ./js-games/simple-game
 	url = https://felipelx.github.io/javascript.git
