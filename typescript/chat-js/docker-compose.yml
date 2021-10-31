@@ -1,0 +1,6 @@
+services:
+    chat:
+        image: felipelx/chat-js
+        ports: 
+            - 5001:80
+        depends_on: felipelx/store-app
