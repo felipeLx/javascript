@@ -1,0 +1,88 @@
+body, p, ul {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+}
+
+h1 {
+    font-size: 5.62rem;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+h2,h5 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+a :hover {
+    cursor: col-resize;
+    background-color: tomato;
+    color: turquoise;
+}
+
+
+.nav {
+    background-color: #DFF6F0;
+    color: #2E279D;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+.main {
+    background-color: #46B3E6;
+    color: rgb(4, 5, 71);
+    height: auto;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #2E279D;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link :hover :active {
+    color: red;
+    background-color:#46B3E6;
+}
+
+.cloud1 {
+    position: relative;
+    right: 100px;
+    margin: 20px;
+}
+
+.cloud2 {
+    position: relative;
+    left: 100px;
+    margin: 20px;
+}
+
+.image {
+    left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu {
+    right: 20px;
+    top: 50px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
