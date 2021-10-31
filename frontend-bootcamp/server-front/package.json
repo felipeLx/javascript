@@ -1,0 +1,42 @@
+{
+  "name": "party-server",
+  "version": "1.0.0",
+  "description": "Party services agregator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run start --prefix client",
+    "server": "nodemon index.js --ignore client",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "festa",
+    "evento"
+  ],
+  "author": "Felipe Lisboa",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "install": "^0.13.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.10",
+    "mongoose-findorcreate": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,15 @@
+.Filter {
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow:rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+    align-items: center;
+    align-content: center;
+    background-color: #0F4C81;
+    display: flex;
+}
+
+.Box {
+    padding: 10px;
+    display: flex;
+}
