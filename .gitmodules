@@ -1,3 +1,22 @@
 [submodule "dice-game"]
-	path = dice-game
-	url = https://github.com/felipeLx/javascript/js-games/dice-game.git
+	path = ./js-games/dice-game
+	url = https://felipelx.github.io/javascript.git
+[submodule "blackjack-game"]
+	path = ./js-games/blackjack-game
+	url = https://felipelx.github.io/javascript.git
+
+[submodule "drum-game"]
+	path = ./js-games/drum-game
+	url = https://felipelx.github.io/javascript.git
+
+[submodule "piano-game"]
+	path = ./js-games/piano-game
+	url = https://felipelx.github.io/javascript.git
+
+[submodule "quiz-game"]
+	path = ./js-games/quiz-game
+	url = https://felipelx.github.io/javascript.git
+[submodule "simple-game"]
+	path = ./js-games/simple-game
+	url = https://felipelx.github.io/javascript.git
+
