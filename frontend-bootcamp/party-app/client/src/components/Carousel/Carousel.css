@@ -1,0 +1,8 @@
+.Carousel {
+    background-color: #0F4C81;
+    opacity: 0.9;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
