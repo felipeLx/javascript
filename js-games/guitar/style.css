@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(133, 133, 197);
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translateY(-2px);
+    }
+    50% {
+        transform: translateY(2px);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+}
+.string {
+    transform: translateY(0);
+}
+.string.vibrating {
+    animation: vibrate .05s infinite;
+}
